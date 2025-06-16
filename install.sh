@@ -7,6 +7,7 @@ if [ ! -f requirements.txt ];
 then
    echo "[!] FileNotFoundError: requirements.txt is required!"
    exit 1
+fi
 
 $PIP install -r requirements.txt
 echo "[+] KullF has been successfully installed."
