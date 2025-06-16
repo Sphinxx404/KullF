@@ -7,7 +7,7 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 def web_scraper():
-  print(Fore.BLUE + pyfiglet.figlet_format("Web Scraper"))  
+  print(Fore.BLUE + pyfiglet.figlet_format("K U L L F"))  
   print("\tVersion 2.0\n\n======== [M E N U] =======\n")
   
   print(Fore.GREEN + "1. Find Website Source Code")
@@ -16,7 +16,7 @@ def web_scraper():
   print(Fore.GREEN + "4. Exit")
    
   try:
-      cmd = int(input(Fore.CYAN + "\n(web_scraper)" + " " +Fore.WHITE +"> "))
+      cmd = int(input(Fore.CYAN + "\n(kullf)" + " " +Fore.WHITE +"> "))
   except ValueError:
       print(Fore.RED + "\n[!] Invalid option.")
       exit()
