@@ -7,8 +7,10 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 def web_scraper():
+  os.system("cls" if os.name=="nt" else "clear")
+  
   print(Fore.BLUE + pyfiglet.figlet_format("K U L L F"))  
-  print("\tVersion 2.0\n\n======== [M E N U] =======\n")
+  print("\tVersion 2.0\t</Z3r0X>\n\n======== [M E N U] =======\n")
   
   print(Fore.GREEN + "1. Find Website Source Code")
   print(Fore.GREEN + "2. Find Headers")
