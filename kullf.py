@@ -1,3 +1,4 @@
+import os
 import time
 import pyfiglet
 import requests
